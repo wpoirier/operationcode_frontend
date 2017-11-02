@@ -12,6 +12,7 @@ import FormEmail from '../form/formEmail/formEmail';
 import FormInput from '../form/formInput/formInput';
 import FormButton from '../form/formButton/formButton';
 import SignUpSection from './signUpSection';
+import Facebook from './facebook.js';
 
 require('./login.css');
 const queryString = require('query-string');
@@ -181,6 +182,7 @@ class Login extends Component {
               Reset Password
             </Link>
           </Form>
+          <Facebook />
         </Section>
 
         <SignUpSection />
